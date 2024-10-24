@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <a href="Index.html">⌂ Inicio</a><br>
+    <a href="Listas.html"> ← Atras</a> <a href="Horario.html">Siguiente →</a> <hr>
+
+    <h1>Tablas</h1>
+    <table border="1" align="center">
+        <tr>
+            <td bgcolor="green">Luis</td><td bgcolor="cyan">Angel</td><td bgcolor="pink">Alonso</td>
+        </tr>
+        <tr>
+            <td bgcolor="orange">Posadas</td><td bgcolor="blue">Del Toro</td><td bgcolor="yellow">Torres</td>
+        </tr>
+        <tr>
+            <td>dato1</td><td>dato2</td><td>dato3</td><td>dato4</td>
+        </tr>
+    </table>
+    <hr>
+    <table border="1" align="center">
+        <tr>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>👻</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>👻</td>
+            <td></td>
+            <td>👻</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>👻</td>
+            <td></td>
+        </tr>
+    </table>
+    <hr>
+    <h2 align="center">Tabla estructurada</h2>
+    <table border="1" align="center">
+        <thead> <!--Encabezado-->
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+            </tr>
+        </thead> 
+        <tbody> <!--Cuerpo-->
+            <tr>
+                <td>Luis</td>
+                <td>19</td>
+            </tr>
+                <td>Angel</td>
+                <td>20</td>
+            <tr>
+                <td>Alonso</td>
+                <td>12</td>
+            </tr>
+        </tbody>
+        <tfoot> <!--Pie-->
+            <td>Total</td>
+            <td>51</td>
+        </tfoot>
+    </table>
+
+    <hr>
+    <h2 align="center">Combinacion de celdas en tablas</h2>
+    <table border="1" align="center">
+        <thead>
+            <tr>
+                <th colspan="2">Informacion</th>
+            </tr>
+            <tr>
+                <th>Docentes</th>
+                <th>Materias</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Jaime</td>
+                <td>Programacion web</td>
+            </tr>
+            <tr>
+                <td>Fundamentos de programacion</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+    <h2 align="center">Combinacion y color de celdas</h2>
+    <table border="1" align="center">
+            <tr>
+                <td colspan="3" bgcolor="green">1</td>
+                <td rowspan="3" bgcolor="purple">4</td>
+            </tr>
+            <tr>
+                <td bgcolor="blue" colspan="2">2</td>
+                <td bgcolor="yellow">3</td>
+            </tr>
+            <tr>
+                <td bgcolor="pink">5</td>
+                <td bgcolor="red">6</td>
+                <td bgcolor="orange">7</td>
+            </tr>
+    </table>
+</body>
+</html>

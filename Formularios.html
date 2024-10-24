@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <hr>
+
+    <h2>Formulario con POST</h2>
+    <form method="post" action="process.php">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="text" name="apellidos" placeholder="Apellidos" required>
+    </form>
+    <hr>
+
+    <h2>Formulario con GET</h2>
+    <form method="get" action="F.html"></form>
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="text" name="apellidos" placeholder="Apellidos" required>
+        <hr>
+
+        <h2>Formulario</h2>
+        <form action="Formularios.html" method="get">
+        <input type="text" name="nombre">
+        <input type="password" name="clave">
+        <input type="file" name="archivo">
+        <input type="checkbox" name="acepto">
+        <input type="radio" name="sexo" value="M">
+        <input type="hidden" name="folio">
+        <input type="email" name="Corrseo">
+        <input type="url" name="enlace">
+        <input type="number" name="numero">
+        <input type="range" name="rango">
+        <input type="date" name="Fecha">
+        <input type="month" name="mes">
+        <input type="week" name="semana">
+        <input type="time" name="tiempo">
+        <input type="datetime-local" name="tiempoLocal">
+        <input type="color" name="colors">
+        <input type="search" name="buscar">
+        <input type="tel" name="telefono">
+        <textarea name="comentario" rows="4" cols="80">
+            Escribe aqui tu comentario...
+        </textarea> <br>
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" id="nombre">
+        <div>
+            <label for="masculino">
+                <input type="radio" id="masculino" name="genero" value="M" checked>
+                Masculino
+            </label>
+        </div>
+        <div>
+            <label for="femenino">
+                <input type="radio" name="genero" id="femenino" value="F">Femenino
+            </label>
+        </div>
+        <div>
+            <label for="no">
+                <input type="radio" name="genero" id="no" value="N">No especificado
+            </label>
+        </div>
+        <div>
+            <label for="pais">Pais:</label>
+            <select name="pais">
+                <option value="mx" selected>Mexico</option>
+                <option value="us">Estados Unidos</option>
+                <option value="ca">Canada</option>
+        </select>
+        </div>
+        <div>
+            <label for="color">Colores:</label>
+            <select name="color" multiple size="2">
+                <option value="rojo">Rojo</option>
+                <option value="verde">Verde</option>
+                <option value="azul">Azul</option>
+        </select>
+        </div>
+        <div>
+            <label for="colores">Colores:</label>
+            <select name="colores">
+                <optgroup label="Colores primarios"></optgroup>
+                <option value="mx" selected>Rojo</option>
+                <option value="us">Azul</option>
+                <option value="ca">Amarillo</option>
+        </select>
+        </div>
+        <div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+        <button type="button">Cancelar</button>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombre">Nombre: </label>
+                <input readonly type="text" id="nombre" name="nombre">
+                <label for="apellido">Apellido: </label>
+                <input type="text" name="apellido" id="apellido">
+            </fieldset>
+        </div>
+        <meter value="0.7"></meter>
+        <progress></progress>
+        </form>
+</body>
+</html>
