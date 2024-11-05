@@ -1,0 +1,25 @@
+body{
+    background-color: #DABFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+hr{
+    height: 5px;
+    background-color: #7FDEFF;
+}
+
+h1{
+    color: #2C2A4A;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+a{
+    color: #1a1e80;
+}
+
+a:hover{
+    color: #0008ff
+}
