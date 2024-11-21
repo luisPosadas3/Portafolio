@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #000000;
+}
+#listaPeliculas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.film {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+}
+.film img {
+    height: 200px;
+    border-radius: 8px;
+}
+.film h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+
+button{
+    width: 60px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(158, 255, 185);
+}
+
+button:hover{
+    background-color: rgb(77, 170, 82);
+}
+
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 0px;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: scroll; 
+    background-color: rgba(0,0,0,0.5); 
+  }
+
+  .informacion {
+    position: relative; 
+    background-color: white;
+    margin: auto; 
+    padding: 20px;
+    width: 60%;
+    -webkit-animation-name: animarsuperior;
+    -webkit-animation-duration: 0.5s;
+    animation-name: animarsuperior;
+    animation-duration: 0.5s
+  }
+
+.informacion img{
+    height: 300px;
+    align-content: center;
+  }
+
+@keyframes animarsuperior {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+
+  .cerrar {
+    color: black;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .cerrar:hover,
+  .cerrar:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }

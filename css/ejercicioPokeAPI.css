@@ -1,0 +1,87 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    font-size: 50px;
+    margin-top: 20px;
+    font-family: 'Pokemon', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#buscador {
+    width: 45%;
+    padding: 10px;
+    background-color: #f8ff9b;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 18px;
+    color: #000000;
+}
+
+input {
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 2px solid #0955a5;
+    width: 80%;
+}
+
+button {
+    background-color: #0955a5;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+button:hover {
+    background-color: #6a5fff;
+}
+
+article {
+    width: 45%;
+    padding: 20px;
+    background-color: rgb(158, 187, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+dl {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+dt {
+    font-weight: bold;
+    color: #000000;
+}
+
+dd {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #444;
+}
+
+img {
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+audio {
+    margin-top: 10px;
+}
+

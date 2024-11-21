@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio PokeAPI</title>
+    <link rel="stylesheet" href="/css/ejercicioPokeAPI.css">
+</head>
+<body>
+    <a href="index.html">⌂ Inicio</a> <br>
+    <a href="pokeAPI.html">← Atras</a> <a href="ejercicioAPI.html">Siguiente →</a> <hr>
+    <h1>PokeAPI</h1>
+    <div class="container">
+       
+        <article id="buscador">
+            <label for="buscarTxt">Buscar pokemon:</label>
+            <input id="buscarTxt" type="text">
+            <button id="buscarBtn" type="button" onclick="mostrarPokemon()">Buscar</button>
+        </article>
+
+        <article>
+            <dl>
+                <dt>Nombre:</dt>
+                <dd id="pokemon-name"></dd>
+                <dt>Tipos:</dt>
+                <dd id="pokemon-types"></dd>
+                <dt>Imagen:</dt>
+                <dd>
+                    <img src="" alt="" id="pokemon-image">
+                </dd>
+                <dt>Imagen shiny:</dt>
+                <dd>
+                    <img src="" alt="" id="pokemon-shiny">
+                </dd>
+                <dt>Numero Pokedex:</dt>
+                <dd id="pokemon-id"></dd>
+                <dt>Grito:</dt>
+                <dd>
+                    <audio id="pokemon-grito" controls>
+                        <source src="">
+                        No se puede reproducir el sonido
+                    </audio>
+                </dd>
+                <dt>Habilidades:</dt>
+                <dd id="pokemon-habilidades"></dd>
+                <dt>Peso:</dt>
+                <dd id="pokemon-peso"></dd>
+            </dl>
+        </article>
+    </div>
+    <script src="/js/ejercicioPokeAPI.js"></script>
+</body>
+</html>
